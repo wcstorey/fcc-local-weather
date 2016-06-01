@@ -1,2 +1,2 @@
-# local-weather1
+# local-weather
 Interacts with a weather API to display the current weather situation at the user's location, displaying temperature, sky conditions, and graphical weather representations in response. Allows users to tweet their current weather conditions.
