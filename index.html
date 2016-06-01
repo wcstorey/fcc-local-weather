@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Your Local Weather</title>
+    
+    
+    
+    
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+        
+<div class="container-fluid">
+      <div class="row text-center">
+        <h1>Your Local Weather</h1>
+      </div>
+     
+   
+      <div id="data"></div>
+      <div class="row text-center">
+        <div class="col-xs-12">
+        <button id="getWeather" class="btn btn-primary">
+        Get Your Local Weather!
+        </button>
+           
+        <div class="col-xs-12 well weather">
+        </div>
+          <br>
+          <span id="weatherAPIData">
+            
+          </span>
+          <span id="temperature">
+            <span id="degrees"></span>
+            <span id="tempSwitch"></span>
+          </span>
+          <span id="weatherIcon"><br></span>
+          
+          <br><br>
+          <div class="icon">
+            <div class="icon sun-shower hide">
+              <div class="cloud"></div>
+              <div class="sun">
+                <div class="rays"></div>
+              </div>
+              <div class="rain"></div>
+            </div>
+
+          <div class="icon thunder-storm hide">
+            <div class="cloud"></div>
+            <div class="lightning">
+              <div class="bolt"></div>
+              <div class="bolt"></div>
+            </div>
+          </div>
+
+          <div class="icon cloudy hide">
+            <div class="cloud"></div>
+            <div class="cloud"></div>
+          </div>
+
+          <div class="icon flurries hide">
+            <div class="cloud"></div>
+            <div class="snow">
+              <div class="flake"></div>
+              <div class="flake"></div>
+            </div>
+          </div>
+
+          <div class="icon sunny hide">
+            <div class="sun">
+              <div class="rays"></div>
+            </div>
+          </div>
+
+          <div class="icon rainy hide">
+            <div class="cloud"></div>
+            <div class="rain"></div>
+          </div>
+          </div>
+          
+         
+          
+        </div>
+      </div>
+    </div>
+    <a class="twitter-share-button" href="https://twitter.com/intent/tweet?">Tweet</a>
+    
+    <a id="tweet-weather" title="Tweet your local weather!" target="_blank">
+      
+    <p id="credits"> Weather icons via <a href="http://codepen.io/joshbader/full/EjXgqr/">Josh Bader</a> and <a href="http://openweathermap.org/">OpenWeatherMap</a><p>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+        <script src="js/index.js"></script>
+
+    
+    
+    
+  </body>
+</html>
