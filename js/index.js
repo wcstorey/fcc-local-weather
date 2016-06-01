@@ -16,7 +16,7 @@ $(document).ready(function() {
     $("#degrees").empty();
     $("#tempSwitch").empty();
 
-    $.getJSON("http://api.openweathermap.org/data/2.5/weather?lat=" + latitude + "&lon=" + longitude + "&appid=b1b15e88fa797225412429c1c50c122a&callback=", function(json) {
+    $.getJSON("http://api.openweathermap.org/data/2.5/weather?lat=" + latitude + "&lon=" + longitude + "&appid=bc00dc6b7dce5cc286905ae4771e474f&callback=", function(json) {
 
       var html = "";
       console.log(json.weather[0].main);
